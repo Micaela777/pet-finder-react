@@ -15,13 +15,17 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
+    "@mapbox/mapbox-sdk": "^0.16.1",
     "@types/react": "^19.0.1",
     "cross-env": "^7.0.3",
     "css-loader": "^7.1.2",
     "dotenv": "^16.4.7",
     "live-server": "^1.2.2",
+    "mapbox-gl": "^3.9.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-dropzone": "^14.3.5",
+    "react-mapbox-gl": "^5.1.1",
     "react-router-dom": "^7.1.1",
     "recoil": "^0.7.7",
     "style-loader": "^4.0.0",
