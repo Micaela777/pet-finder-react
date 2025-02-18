@@ -1,0 +1,41 @@
+.home-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 90%;
+    gap: 45px;
+}
+
+.main-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.container-style{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px 30px 0px 0px;
+    padding: 60px 0px;
+    background-color: #FA854B;
+}
+
+.buttons-container{
+    width: 100%;
+    max-width: 350px;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.edited-text{
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #FFECE1;
+}

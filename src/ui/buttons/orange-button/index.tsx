@@ -1,8 +1,9 @@
 import React from "react";
+import * as css from "./index.css"
 
 function OrangeButton({children}){
   return (
-    <button>
+    <button className={css.style}>
         {children}
     </button>
     
