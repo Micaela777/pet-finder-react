@@ -1,6 +1,6 @@
 import React from "react";
 import { OrangeLogoImg } from "ui/images/orange-logo-img";
-import { Navbar } from "ui/buttons/navbar";
+import { Navbar } from "components/navbar";
 import * as css from "./index.css"
 
 

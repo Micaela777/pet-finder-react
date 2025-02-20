@@ -5,3 +5,8 @@
     justify-content: space-between;
     padding: 15px 15px 25px 15px ;
 }
+@media (min-width: 760px){
+    .header-container{
+      padding: 20px 35px 25px 30px;
+    }
+  }
