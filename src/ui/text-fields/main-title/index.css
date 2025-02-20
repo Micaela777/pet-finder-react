@@ -6,3 +6,8 @@
     margin: 0px;
     color: #FA854B
 }
+@media (min-width: 768px){
+    .style{
+        color: #FFFFFF;
+    }
+} 

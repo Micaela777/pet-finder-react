@@ -9,7 +9,7 @@
     cursor: pointer;
     gap: 8px;
 }
-@media (min-width: 760px){
+@media (min-width: 768px){
     .menu{
         display: none;
     }

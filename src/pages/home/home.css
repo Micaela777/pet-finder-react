@@ -6,6 +6,12 @@
     height: 100%;
     gap: 45px;
 }
+@media (min-width: 768px){
+    .home-style{
+        justify-content: center;
+        background-color: #FA854B;
+    }
+} 
 
 .main-items{
     display: flex;
@@ -22,6 +28,11 @@
     padding: 60px 0px;
     background-color: #FA854B;
 }
+@media (min-width: 768px){
+    .container-style{
+        background: none;
+    }
+} 
 
 .buttons-container{
     width: 100%;

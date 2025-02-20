@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { HomeImg } from "ui/images/home-img";
+import { MobileHomeImg } from "ui/images/mobile-home-img";
 import { OrangeButton } from "ui/buttons/orange-button";
 import { MainTitle } from "ui/text-fields/main-title";
 import { HomeSubtitle } from "ui/text-fields/home-subtitle";
@@ -13,7 +13,7 @@ function Home(){
   return (
     <div className={css["home-style"]}>
       <div className={css["main-items"]}>
-        <HomeImg />
+        <MobileHomeImg />
         <MainTitle>Pet Finder App</MainTitle>
       </div>
       <div className={css["container-style"]}>
