@@ -1,0 +1,30 @@
+.nav-container{
+    display: none;
+}
+@media (min-width: 960px){
+    .nav-container{
+        display: inherit;
+        position: absolute;
+        right: 30px;
+    }
+}
+
+.nav{
+    display: flex;  
+    flex-direction: row;
+    gap: 30px;
+}
+  
+.nav-item{
+    margin: 0px;
+    font-family: "Poppins", serif;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    color: #FA854B;
+    text-align: center;
+}
+.nav-item:hover{
+    cursor: pointer;
+    color: #e86149;
+} 

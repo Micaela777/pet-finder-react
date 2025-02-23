@@ -4,7 +4,7 @@ import { UserEmail } from "ui/text-fields/user-email";
 import { LogoutButton } from "ui/buttons/logout-button";
 import * as css from "./index.css"
 
-function Navbar(){
+function NavbarMobile(){
 
   const [isActive, setIsActive] = useState(false);
 
@@ -30,4 +30,4 @@ function Navbar(){
   )
 }
 
-export { Navbar }
+export { NavbarMobile }

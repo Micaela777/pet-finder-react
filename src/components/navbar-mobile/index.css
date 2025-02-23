@@ -25,9 +25,8 @@
   padding: 0px;
   gap: 55px;
 }
-@media (min-width: 768px){
+@media (min-width: 960px){
   .nav{
-    display: flex;
     flex-direction: row;
     margin: 0px;
     gap: 35px

@@ -12,3 +12,7 @@
     box-shadow: 2px 4px 1px #E37843;
     background-color: #FFC9AE;
 }
+.style:hover{
+    cursor: pointer;
+    background-color: #fdc0ab;
+} 

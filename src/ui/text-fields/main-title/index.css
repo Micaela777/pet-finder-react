@@ -6,7 +6,7 @@
     margin: 0px;
     color: #FA854B
 }
-@media (min-width: 768px){
+@media (min-width: 960px){
     .style{
         color: #FFFFFF;
     }

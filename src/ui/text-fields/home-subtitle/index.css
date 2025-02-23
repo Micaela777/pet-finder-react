@@ -8,3 +8,8 @@
     margin: 0px;
     color: #FFECE1;
 }
+@media (min-width: 960px){
+    .style{
+        max-width: 85%;
+    }
+} 
