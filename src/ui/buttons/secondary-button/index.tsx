@@ -1,7 +1,9 @@
 import React from "react";
 import * as css from "./index.css"
+import { useNavigate } from "react-router-dom";
 
-function OrangeButton({children}){
+function SecondaryButton({children}){
+
   return (
     <button className={css.style}>
         {children}
@@ -10,4 +12,4 @@ function OrangeButton({children}){
   )
 }
 
-export { OrangeButton };
+export { SecondaryButton };

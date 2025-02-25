@@ -1,0 +1,11 @@
+.lala{
+    width: 100%;
+    font-family: "Poppins", serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    padding: 13px 15px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0 0 4px 1px #a5a5a5;
+}

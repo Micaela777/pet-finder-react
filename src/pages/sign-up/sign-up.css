@@ -1,0 +1,14 @@
+.style{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 13px;
+    background: linear-gradient(to bottom, #FCFCFC 50%, #FA854B 50%);
+}
+
+.mobile-main-logo-size{
+    height: 90px;
+    width: 90px;
+}

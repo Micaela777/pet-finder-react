@@ -1,0 +1,17 @@
+.style{
+    width: 100%;
+    font-family: "Poppins", serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    border: none;
+    border-radius: 7px;
+    padding: 13px;
+    color: #FFFFFF;
+    background: linear-gradient(45deg, #feb952, #fc7732);
+}
+
+.style:hover{
+    cursor: pointer;
+    background: linear-gradient(45deg, #e7ad56, #f56140)
+}

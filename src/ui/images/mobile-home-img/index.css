@@ -1,10 +1,5 @@
-.size{
-    height: 170px;
-    width: 170px;
-}
-
 @media (min-width: 960px){
-    .size{
+    .style{
         display: none;
     }
 } 
