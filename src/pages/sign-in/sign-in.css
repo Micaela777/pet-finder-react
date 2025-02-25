@@ -1,0 +1,9 @@
+.style{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    background: linear-gradient(to bottom, #FCFCFC 50%, #FA854B 50%);
+}

@@ -1,0 +1,13 @@
+.style{
+    font-family: "Poppins", serif;
+    font-size: 13px;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0px;
+    color: #E87B45;
+}
+
+.style:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
