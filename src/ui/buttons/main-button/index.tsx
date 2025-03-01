@@ -6,7 +6,8 @@ function MainButton({children}){
 
 
   const navigate = useNavigate()
-  function lala(e){
+
+  function handleClick(e){
     e.preventDefault()
 
     if(children === "Registrarse"){
@@ -17,7 +18,7 @@ function MainButton({children}){
   }
 
   return (
-    <button className={css.style} onClick={lala}>
+    <button className={css.style} onClick={handleClick}>
         {children}
     </button>
     

@@ -29,7 +29,7 @@ function Home(){
         </div>
       </div>
       <div className={css["img-container"]}>
-        <DesktopHomeImg className={css.img}/>
+        <DesktopHomeImg />
       </div>
     </div>
   )
