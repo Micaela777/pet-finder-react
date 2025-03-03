@@ -4,9 +4,7 @@ import * as css from "./index.css"
 
 function ArrowImg(){
   return (
-    <h1>
-        <img className={css.size} src={arrow} />
-    </h1>
+      <img className={css.size} src={arrow} />
     
   )
 }
