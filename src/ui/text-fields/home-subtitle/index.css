@@ -10,6 +10,7 @@
 }
 @media (min-width: 960px){
     .style{
-        max-width: 85%;
+        font-size: 19px;
+        max-width: 70%;
     }
 } 

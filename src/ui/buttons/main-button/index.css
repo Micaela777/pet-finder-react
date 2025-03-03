@@ -11,6 +11,11 @@
     box-shadow: 2px 4px 1px #E37843;
     background-color: #FFC9AE;
 }
+@media (min-width: 960px){
+    .style{
+        font-size: 20px;
+    }
+} 
 .style:hover{
     cursor: pointer;
     background-color: #fdc0ab;
