@@ -33,9 +33,17 @@
     align-items: center;
     gap: 13px;
 }
+@media (min-width: 960px){
+    .form-container{
+        width: 100%;
+        max-width: 400px;
+    }
+}
 
 .img-container{
     width: 60%;
+    display: flex;
+    justify-content: center;
 }
 
 .mobile-main-logo-size{
