@@ -1,0 +1,17 @@
+.size{
+    display: none;
+    height: 20px;
+    width: 25px;
+}
+@media (min-width: 960px){
+    .size{
+        display: inherit;
+        position: absolute;
+        top: 30px;
+        left: 20px;
+    }
+} 
+
+.size:hover{
+    cursor: pointer;
+}

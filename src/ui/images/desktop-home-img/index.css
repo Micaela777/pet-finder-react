@@ -1,10 +1,6 @@
 .size{
     display: none;
 }
-
-.size:hover{
-    cursor: pointer;
-}
 @media (min-width: 960px){
     .size{
         display: inherit;
