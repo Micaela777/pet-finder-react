@@ -8,10 +8,10 @@
     border-radius: 7px;
     padding: 13px;
     color: #FFFFFF;
-    background: linear-gradient(45deg, #feb952, #fc7732);
+    background-color: #3d3a39;
 }
 
 .style:hover{
     cursor: pointer;
-    background: linear-gradient(45deg, #e7ad56, #f56140)
+    background-color: #2c2928;
 }

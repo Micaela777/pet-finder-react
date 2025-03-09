@@ -1,7 +1,7 @@
 import React from "react";
 import * as css from "./index.css"
 
-function SecondaryButton({children}){
+function CancelButton({children}){
 
   return (
     <button className={css.style}>
@@ -11,4 +11,4 @@ function SecondaryButton({children}){
   )
 }
 
-export { SecondaryButton };
+export { CancelButton };

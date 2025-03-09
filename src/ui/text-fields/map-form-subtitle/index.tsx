@@ -1,7 +1,7 @@
 import React from "react";
 import * as css from "./index.css"
 
-function Subtitle({children}){
+function MapFormSubtitle({children}){
   return (
     <h1 className={css.style}>
         {children}
@@ -10,4 +10,4 @@ function Subtitle({children}){
   )
 }
 
-export { Subtitle };
+export { MapFormSubtitle };

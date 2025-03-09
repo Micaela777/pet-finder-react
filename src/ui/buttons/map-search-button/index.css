@@ -1,5 +1,6 @@
 .style{
     width: 100%;
+    max-width: 200px;
     font-family: "Poppins", serif;
     font-size: 15px;
     font-weight: 400;

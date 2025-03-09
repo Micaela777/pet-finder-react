@@ -20,7 +20,7 @@
     width: 40px;
     border-radius: 10px;
     transition: 200ms ease-in-out;
-    background-color: #FA854B;
+    background-color: #FFECE1;
 }
   
 .active .bar:nth-last-child(1){

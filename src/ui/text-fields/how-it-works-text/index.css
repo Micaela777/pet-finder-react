@@ -1,5 +1,4 @@
 .style{
-
     font-family: "Poppins", serif;
     font-size: 12px;
     font-weight: 300;
@@ -20,3 +19,10 @@
     cursor: pointer;
     text-decoration: underline;
 } 
+
+.edited-text{
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #FFECE1;
+}

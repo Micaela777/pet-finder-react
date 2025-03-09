@@ -1,7 +1,7 @@
 import React from "react";
 import * as css from "./index.css"
 
-function HowItWorks({children}){
+function ErrorText({children}){
   return (
     <h1 className={css.style}>
         {children}
@@ -10,4 +10,4 @@ function HowItWorks({children}){
   )
 }
 
-export { HowItWorks };
+export { ErrorText };

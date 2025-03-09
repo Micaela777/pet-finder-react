@@ -21,10 +21,10 @@
     font-size: 17px;
     font-weight: 300;
     font-style: normal;
-    color: #FA854B;
+    color: #FFECE1;
     text-align: center;
 }
 .nav-item:hover{
     cursor: pointer;
-    color: #e86149;
+    color: #f8e2db;
 } 
