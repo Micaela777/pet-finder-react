@@ -1,8 +1,12 @@
-
 const path = require('path');
 const dev = process.env.NODE_ENV == "development"
 const liveServer = require('live-server')
 const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
+const webpack = require("webpack");
+const dotenv = require("dotenv");
+
+dotenv.config();
+
 
 if(dev){
     liveServer.start({
@@ -44,4 +48,9 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
   },
+  plugins: [
+    new webpack.DefinePlugin({
+      "process.env.MAPBOX_TOKEN": JSON.stringify(process.env.MAPBOX_TOKEN),
+    }),
+  ],
 };

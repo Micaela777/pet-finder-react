@@ -1,0 +1,45 @@
+.pet-card-container{
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+    border-radius: 15px;
+    gap: 20px;
+    background-color: #1f2023;
+}
+
+.pet-image{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.pet-name{
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0px;
+    color: #ffffff;
+}
+
+.pet-location{
+    font-family: "Poppins", serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0px;
+    color: #ffffff;
+}
+

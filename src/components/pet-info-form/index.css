@@ -12,22 +12,3 @@
     flex-direction: column;
     gap: 18px;
 }
-
-.pet-picture-container{
-    min-height: 350px;
-    max-width: 650px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    background-color: #ded7d4;
-}
-
-.text{
-    margin: 0px;
-    font-family: "Poppins", serif;
-    font-weight: 300;
-    font-size: 18px;
-    font-style: normal;
-    color: #a6a097;
-}
