@@ -9,6 +9,7 @@ import { SignIn } from "pages/sign-in/sign-in";
 import { HowItWorksPage } from "pages/how-it-works/how-it-works";
 import { ReportPet } from "pages/report-pet/report-pet";
 import { MyReportedPets } from "pages/my-reported-pets/my-reported-pets";
+import { UserData } from "pages/user-data/user-data";
 
 function AppRoutes(){
     return (
@@ -22,6 +23,7 @@ function AppRoutes(){
             <Route path="/" element={< WhiteLogoImg />} />
             <Route path="/report-pet" element={< ReportPet />} />
             <Route path="/my-reported-pets" element={< MyReportedPets />} />
+            <Route path="/user-data" element={< UserData />} />
           </Route>
         </Routes>
     )
