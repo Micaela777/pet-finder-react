@@ -1,8 +1,9 @@
 .style{
-    font-family: "Poppins", serif;
-    border: none;
-    font-weight: 200;
-    font-style: normal;
     margin: 0px;
-    color: #fcefdf;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #414456;
 }

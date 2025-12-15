@@ -1,9 +1,0 @@
-.size{
-    height: 20px;
-    width: 25px;
-}
-@media (min-width: 960px){
-    .size{
-        display: none;
-    }
-} 

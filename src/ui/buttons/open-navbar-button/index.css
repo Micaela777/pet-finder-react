@@ -1,0 +1,24 @@
+.menu{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+    gap: 8px;
+}
+@media (min-width: 769px){
+    .menu{
+        display: none;
+    }
+} 
+
+.bar{
+    height: 4px;
+    width: 40px;
+    border-radius: 10px;
+    transition: 200ms ease-in-out;
+    background-color: #2B3050;
+}

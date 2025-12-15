@@ -1,0 +1,32 @@
+.style{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    display: inline-block;
+    position: relative;
+    margin: 0px;
+    color: #FA854B;
+}
+
+.style:hover{
+    cursor: pointer;
+}
+
+.style::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+    background-color: #f8a37b;
+}
+
+.style:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}

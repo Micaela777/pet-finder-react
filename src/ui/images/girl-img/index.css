@@ -1,0 +1,11 @@
+.size{
+    height: 390px;
+    width: 300px;
+}
+@media (min-width: 769px){
+  .size{
+    width: 40vw;
+    max-width: 480px;
+    height: auto;
+  }
+}

@@ -1,0 +1,12 @@
+.style{
+    height: 3px;
+    width: 80%;
+    background-color: #FA854B;
+    border: none;
+}
+@media (min-width: 769px){
+  .style{
+    width: 3px;
+    height: 440px;
+  }
+}

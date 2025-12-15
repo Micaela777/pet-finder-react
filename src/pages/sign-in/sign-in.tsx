@@ -3,7 +3,6 @@ import { OrangeBackArrowImg } from "ui/images/orange-back-arrow-img";
 import { WhiteBackArrowImg } from "ui/images/white-back-arrow";
 import { KittyCat } from "ui/images/kitty-cat";
 import { SignInForm } from "components/sign-in-form";
-import { DesktopHomeImg } from "ui/images/desktop-home-img";
 import * as css from "./sign-in.css";
 
 function SignIn(){
@@ -19,7 +18,6 @@ function SignIn(){
               </div>
             </div>
             <div className={css["img-container"]}>
-              <DesktopHomeImg />
             </div>
         </div>
     )

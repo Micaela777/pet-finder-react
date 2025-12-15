@@ -1,15 +1,26 @@
 .style{
-    font-family: "Cherry Bomb One", serif;
-    font-size: 38px;
-    font-weight: 400;
+    max-width: 300px;
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+    font-optical-sizing: auto;
+    font-weight: 500;
     font-style: normal;
     text-align: center;
     margin: 0px;
-    color: #FA854B
+    color: #2B3050;
 }
-@media (min-width: 960px){
-    .style{
-        font-size: 60px;
-        color: #FFFFFF;
-    }
-} 
+@media (min-width: 769px){
+  .style{
+    text-align: left;
+    max-width: 450px;
+    font-size: clamp(2rem, 2.8vw, 3rem);
+  }
+}
+
+.underlined{
+    text-decoration: underline;
+    text-decoration-color: #ffa980;
+    text-decoration-thickness: 8px;
+    text-decoration-skip-ink: none;
+    text-underline-offset: -5px;
+}

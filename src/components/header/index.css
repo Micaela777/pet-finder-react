@@ -3,11 +3,5 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 15px ;
-    background-color: #FA854B;
+    padding: 10px 15px;
 }
-@media (min-width: 960px){
-    .header-container{
-      padding: 10px 30px;
-    }
-  }

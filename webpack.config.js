@@ -11,7 +11,8 @@ dotenv.config();
 if(dev){
     liveServer.start({
       root: "./",
-      file: "index.html"
+      file: "index.html",
+      port: 5050,
     })
 }
 

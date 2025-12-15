@@ -1,7 +1,12 @@
 import React from "react";
-import { sendRegisterData } from "hooks/useSignUp"; // Asegurate que el path coincida
+import { useSignUp } from "hooks/useSignUp"; // Asegurate que el path coincida
 
 function UserData() {
+
+    const { sendRegisterData } = useSignUp()
+
+    console.log("soy el console de la pagina")
+
   function handleClick() {
     sendRegisterData();
   }

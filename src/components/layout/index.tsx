@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Outlet } from "react-router-dom";
 import { Header } from "components/header";
+import { Footer } from "components/footer";
 import * as css from "./index.css";
 
 
@@ -9,6 +10,7 @@ function Layout(){
     <div className={css.root}>
       <Header></Header>
       <Outlet />
+      <Footer></Footer>
     </div>
     
   )
