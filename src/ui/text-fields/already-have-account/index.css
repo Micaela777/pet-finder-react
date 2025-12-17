@@ -1,6 +1,7 @@
 .style{
-    font-family: "Poppins", serif;
-    font-size: 13px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
     font-weight: 300;
     font-style: normal;
     margin: 0px;
@@ -8,8 +9,9 @@
 }
 
 .span-text{
-    font-family: "Poppins", serif;
-    font-weight: 700;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
     font-style: normal;
     color: #E87B45;
 }

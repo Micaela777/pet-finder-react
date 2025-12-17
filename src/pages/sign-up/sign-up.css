@@ -1,52 +1,8 @@
 .sign-up-container{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0px 20px;
-    background: linear-gradient(to bottom, #FFFFFF 50%, #FA854B 50%);
-}
-@media (min-width: 960px){
-    .sign-up-container{
-        flex-direction: row;
-        align-items: center;
-        padding: 0px;
-        background: none;
-    }
-}
-
-@media (min-width: 960px){
-    .sign-up-style{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 100%;
-        width: 40%;
-        background-color: #FA854B;
-        padding: 0px 50px 20px 50px;
-    }
-}
-
-.form-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 13px;
-}
-@media (min-width: 960px){
-    .form-container{
-        width: 100%;
-        max-width: 400px;
-    }
-}
-
-.img-container{
-    width: 60%;
-    display: flex;
     justify-content: center;
-}
-
-.mobile-main-logo-size{
-    height: 90px;
-    width: 90px;
+    padding: 60px 20px;
+    background: linear-gradient(to bottom, #FFFFFF 50%, #2B3050 50%);
 }

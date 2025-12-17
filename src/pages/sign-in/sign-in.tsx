@@ -7,14 +7,10 @@ function SignIn(){
 
     return (
         <div className={css["sign-in-container"]}>
-            <div className={css["sign-in-style"]}>
-              <div className={css["form-container"]}>
-                <KittyCat />
-                <SignInForm />
-              </div>
-            </div>
-            <div className={css["img-container"]}>
-            </div>
+          <div className={css["form-container"]}>
+            <KittyCat />
+            <SignInForm />
+          </div>
         </div>
     )
 }

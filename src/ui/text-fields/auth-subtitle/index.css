@@ -1,0 +1,14 @@
+.style{
+    font-family: "Rubik", sans-serif;
+    font-size: 15px;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    max-width: 270px;
+    margin: 0px;
+}
+@media (min-width: 769px){
+  .style{
+    font-size: clamp(1rem, 1.1vw, 1.1rem);;
+  }
+}

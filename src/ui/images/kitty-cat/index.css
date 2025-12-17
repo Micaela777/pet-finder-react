@@ -2,8 +2,3 @@
     height: 140px;
     width: 168px;
 }
-@media (min-width: 960px){
-    .size{
-        display: none;
-    }
-} 

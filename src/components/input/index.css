@@ -1,10 +1,11 @@
 .style{
     width: 100%;
-    font-family: "Poppins", serif;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
     font-size: 15px;
     font-weight: 300;
     font-style: normal;
-    padding: 13px 15px;
+    padding: 14px 16px;
     border: none;
     border-radius: 7px;
     box-shadow: 0 0 4px 1px #a5a5a5;
