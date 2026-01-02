@@ -1,14 +1,14 @@
 .style{
-    margin: 0px;
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
-    font-size: 15px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 700;
     font-style: normal;
-    text-align: center; 
+    margin: 0px;
+    color: #ffffff;
 }
 @media (min-width: 769px){
   .style{
-    font-size: 17px;
+    font-size: 30px;
   }
 }

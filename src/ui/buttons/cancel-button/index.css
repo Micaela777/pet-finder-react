@@ -1,6 +1,8 @@
 .style{
     width: 100%;
-    font-family: "Poppins", serif;
+    max-width: 340px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
     font-size: 15px;
     font-weight: 400;
     font-style: normal;

@@ -1,15 +1,12 @@
 .style{
     display: flex;
-    margin-bottom: 25px;
     align-items: center;
     flex-direction: column;
     gap: 30px;
 }
 
 .mapbox{
-    height: 400px;
     width: 100%;
     max-width: 650px;
-    margin-top: 20px;
     border-radius: 10px;
 }

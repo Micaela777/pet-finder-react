@@ -11,14 +11,15 @@ function ReportPet(){
     return(
         <div className={css.style}>
             <div className={css["text-container"]}>
-              
                 <CustomSubtitle>Ingresá la siguiente información para realizar el reporte de la mascota:</CustomSubtitle>
             </div>
             <div className={css["report-pet-container"]}>
                 <PetInfoForm />
                 <MapForm />
-                <SecondaryButton>Reportar</SecondaryButton>
-                <CancelButton>Cancelar</CancelButton>
+                <div className={css["buttons-container"]}>
+                    <SecondaryButton>Reportar</SecondaryButton>
+                    <CancelButton>Cancelar</CancelButton>
+                </div>
             </div>
         </div>
     )

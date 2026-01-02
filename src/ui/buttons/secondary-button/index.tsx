@@ -5,7 +5,7 @@ function SecondaryButton({children}){
 
   return (
     <button className={css.style}>
-      <p className={css.text}>{children}</p>
+        {children}
     </button>
     
   )

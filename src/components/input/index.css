@@ -1,5 +1,6 @@
 .style{
     width: 100%;
+    max-width: 320px;
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
     font-size: 15px;
@@ -9,4 +10,9 @@
     border: none;
     border-radius: 7px;
     box-shadow: 0 0 4px 1px #a5a5a5;
+}
+@media (min-width: 769px){
+  .style{
+    font-size: 17px;
+  }
 }
