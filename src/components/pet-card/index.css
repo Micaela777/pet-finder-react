@@ -22,14 +22,6 @@
     gap: 5px;
 }
 
-.pet-name{
-    font-family: "Poppins", serif;
-    font-weight: 700;
-    font-style: normal;
-    margin: 0px;
-    color: #ffffff;
-}
-
 .pet-location{
     font-family: "Poppins", serif;
     font-size: 15px;

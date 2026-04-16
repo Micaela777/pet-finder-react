@@ -1,0 +1,26 @@
+.style{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 13px;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 5px;
+    gap: 7px;
+    color: #ffffff;
+    background-color: #4981f9;
+}
+@media (min-width: 769px){
+  .style{
+    font-size: 24px;
+  }
+}
+
+.style:hover{
+    cursor: pointer;
+    background-color: #4070ff;
+}

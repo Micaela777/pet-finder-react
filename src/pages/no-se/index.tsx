@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import { useSignUp } from "hooks/useSignUp"; // Asegurate que el path coincida
 
 function UserData() {
@@ -20,4 +20,4 @@ function UserData() {
   );
 }
 
-export { UserData };
+export { UserData }; */

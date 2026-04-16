@@ -4,7 +4,7 @@ import { PetInfoForm } from "components/pet-info-form";
 import { MapForm } from "components/map-form";
 import { SecondaryButton } from "ui/buttons/secondary-button";
 import { CancelButton } from "ui/buttons/cancel-button";
-import * as css from "./report-pet.css"
+import * as css from "./index.css";
 
 function ReportPet(){
 

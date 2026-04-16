@@ -1,5 +1,5 @@
 import React from "react";
-import * as css from "./index.css"
+import * as css from "./index.css";
 
 function MapSearchButton({children}){
 
@@ -9,6 +9,6 @@ function MapSearchButton({children}){
     </button>
     
   )
-}
+};
 
 export { MapSearchButton};

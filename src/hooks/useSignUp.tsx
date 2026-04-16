@@ -1,29 +1,36 @@
+import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import { useAtom } from "jotai";
-import { userDataAtom } from "atoms/sign-up-atom";
-import { userDataUpperAtom } from "atoms/sign-up-atom";
+import { newUser } from "atoms/sign-up-atom";
+import { signUpAPI } from "lib/api";
 
 export function useSignUp(){
 
-    const [user, setUser] = useAtom(userDataAtom)
-    console.log(user)
-    console.log("soy el console del hook")
+  const navigate = useNavigate()
 
-    async function sendRegisterData() {
+  const [userData, setUserData] = useAtom(newUser);
+  const [passwordError, setPasswordError] = useState("");
 
-        try {
-          const res = await fetch("https://pet-finder-back-production.up.railway.app/test", {
-            method: "GET",
-            headers: { "Content-Type": "application/json" },
-          });
-      
-          const data = await res.json();
-          console.log("Respuesta del backend:", data);
-        } catch (error) {
-          console.error("Error en la llamada al backend:", error);
+  async function getUserData(data){
+    if( data.newUserPassword !== data.confirmPassword){
+        setPasswordError("ⓘ Las contraseñas no coinciden");
+    } else {
+        setPasswordError("");
+        const user = {
+          fullname: data.newUserName,
+          email: data.newUserEmail,
+          location: data.newUserLocation,
+          password: data.newUserPassword
         }
-    }
+        setUserData(user)
 
-    return { sendRegisterData }
-}
+        const res = await signUpAPI(user)
+        console.log("usuario creado", res)
+        navigate("/user-location")
+    };
+  };
+
+    return {getUserData, passwordError };
+};
 
     

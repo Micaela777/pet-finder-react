@@ -1,5 +1,5 @@
-import React, { Suspense } from "react"
-import { createRoot } from "react-dom/client"
+import React, { Suspense } from "react";
+import { createRoot } from "react-dom/client";
 import { AppRoutes } from "./router";
 import { BrowserRouter } from "react-router-dom";
 
