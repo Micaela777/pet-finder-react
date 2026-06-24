@@ -1,6 +1,6 @@
-import { atom } from "jotai";
+import { atomWithStorage } from "jotai/utils";
 
-export const userCoordinates = atom({
+export const userCoordinates = atomWithStorage("userCoordinates", {
   lat: 0,
   lng: 0
 });

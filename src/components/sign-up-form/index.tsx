@@ -1,16 +1,17 @@
 import React from "react";
-import { useSignUp } from "hooks/useSignUp";
+import { useSignUp } from "hooks/index";
 import { AuthTitle } from "ui/text-fields/auth-title";
 import { AuthSubtitle } from "ui/text-fields/auth-subtitle";
 import { TextField } from "components/input";
 import { AlreadyHaveAccount } from "ui/text-fields/already-have-account";
 import { SecondaryButton } from "ui/buttons/secondary-button";
 import { ErrorText } from "ui/text-fields/error-text";
+import { LoadingText } from "ui/text-fields/loading-text";
 import * as css from "./index.css";
 
 function SignUpForm(){
 
-  const {getUserData, passwordError} = useSignUp();
+  const { getUserData, isLoading, passwordError } = useSignUp();
 
 
   const handleSubmit = (e) => {
@@ -38,6 +39,7 @@ function SignUpForm(){
               <TextField type="text" name="password" placeholder="Contraseña" required/>
               <div className={css["password-container"]}>
                 <TextField type="text" name="confirm-password" placeholder="Confirmar contraseña" required/>
+                {isLoading && <LoadingText>Un momento...</LoadingText>}
                 {passwordError && <ErrorText>{passwordError}</ErrorText>}
               </div>
               <AlreadyHaveAccount />

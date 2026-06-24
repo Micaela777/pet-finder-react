@@ -2,14 +2,13 @@ import React from "react";
 import { EditingPencil } from "ui/images/editing-pencil";
 import * as css from "./index.css"
 
-function EditButton({children}){
+function EditButton({children, onClick}){
     return(
-        <button className={css.style}>
+        <button type="button" className={css.style} onClick={onClick}>
             {children}
             <EditingPencil />
-        </button>
-            
-    )
-}
+        </button>    
+    );
+};
 
-export { EditButton }
+export { EditButton };

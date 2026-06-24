@@ -1,30 +1,9 @@
-.edit-user-data-section{
-    height: 100vh;
+.style{
+    padding: 0px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px 20px 0px 20px;
-}
-
-.container{
-    height: 100%;
-    width: 100%;
-    max-width: 420px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.fieldsets-container{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
-}
-
-.name-fieldset,
-.location-fieldset{
-    width: 100%;
+    justify-content: center;
+    flex: 1;
+    gap: 80px;
 }

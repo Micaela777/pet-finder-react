@@ -6,7 +6,7 @@ const Map = MapboxGL({
   accessToken: process.env.MAPBOX_TOKEN,
 });
 
-function MapComponent() {
+function MapComponent({center, zoom}) {
   return (
     <Map
       style="mapbox://styles/mapbox/streets-v11"
@@ -14,8 +14,8 @@ function MapComponent() {
         height: "400px",
         width: "100%",
       }} 
-      center={[-63.6167, -38.4161]} 
-      zoom={[4]} 
+      center={center} 
+      zoom={zoom} 
     />
   );
 }

@@ -1,14 +1,13 @@
 import React from "react";
-import * as css from "./index.css"
+import * as css from "./index.css";
 
-function CancelButton({children}){
+function CancelButton({children, onClick}){
 
   return (
-    <button className={css.style}>
+    <button type="button" className={css.style} onClick={onClick}>
         {children}
     </button>
-    
-  )
-}
+  );
+};
 
 export { CancelButton };

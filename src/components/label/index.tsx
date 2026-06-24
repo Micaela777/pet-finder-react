@@ -1,5 +1,5 @@
 import React from "react";
-import * as css from "./index.css";
+import * as css from "./index.css"
 
 function Label ({children}){
     return (

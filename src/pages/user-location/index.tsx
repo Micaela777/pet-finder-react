@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { useAtom } from "jotai";
+import { useNavigate } from "react-router-dom";
 import { userCoordinates } from "atoms/user-coordinates";
 import { UserLocationButton } from "ui/buttons/user-location-button";
 import { Check } from "ui/text-fields/check";
@@ -12,6 +13,8 @@ function UserLocation() {
     const [coordinates, setCoordinates] = useAtom(userCoordinates)
     const [locationConfirmation, setLocationConfirmation] = useState("");
 
+    const navigate = useNavigate()
+
     const handleUserLocation = () => {
     navigator.geolocation.getCurrentPosition((position) => {
         const lat = position.coords.latitude;
@@ -19,7 +22,12 @@ function UserLocation() {
 
         //console.log(position)
         setLocationConfirmation("✓ ¡Ubicación guardada!");
-        setCoordinates({lat, lng})
+        setCoordinates({lat, lng});
+
+        setTimeout(() => {
+          navigate("/lost-pets-nearby");
+        }, 1000);
+
     }, (error) => {
         setLocationConfirmation("✗ Necesitamos tu ubicación para continuar");
        });

@@ -1,0 +1,21 @@
+.container{
+    width: 100%;
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.fieldsets-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.name-fieldset,
+.location-fieldset{
+    width: 100%;
+}

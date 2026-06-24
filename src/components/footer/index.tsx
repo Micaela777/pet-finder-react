@@ -11,11 +11,15 @@ function Footer(){
     <div className={css["footer-container"]}>
       <div className={css["logo-and-copyright"]}>
         <Logo />
-        <Copyright>© 2025 PetFinderAR</Copyright>
+        <Copyright>© 2026 PetFinderAR</Copyright>
       </div>  
       <div className={css["social-media"]}>
-        <LinkedInImg />
-        <GitHubImg />
+        <a href="https://www.linkedin.com/in/micaela-medina-79790321a/" target="_blank">
+          <LinkedInImg />
+        </a>
+        <a href="https://github.com/Micaela777" target="_blank">
+          <GitHubImg />
+        </a>
       </div>
     </div>
   )

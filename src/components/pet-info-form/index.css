@@ -13,3 +13,14 @@
     align-items: center;
     gap: 18px;
 }
+
+.click-text{
+    margin: 0px;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: 200;
+    font-style: normal;
+    color: #2B3050;
+}

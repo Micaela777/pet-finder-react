@@ -1,10 +1,10 @@
 import React from "react";
 import * as css from "./index.css";
 
-function MapSearchButton({children}){
+function MapSearchButton({children, onClick}){
 
   return (
-    <button className={css.style}>
+    <button type="button" className={css.style} onClick={onClick}>
         {children}
     </button>
     
