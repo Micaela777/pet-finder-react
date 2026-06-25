@@ -48,10 +48,10 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-  }
-  /* plugins: [
+  },
+  plugins: [
     new webpack.DefinePlugin({
       "process.env.MAPBOX_TOKEN": JSON.stringify(process.env.MAPBOX_TOKEN),
     }),
-  ], */
+  ]
 };

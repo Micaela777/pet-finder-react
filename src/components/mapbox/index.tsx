@@ -2,9 +2,8 @@ import React from "react";
 import MapboxGL from "react-mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 
-const mapT = "pk.eyJ1IjoibWljYWVsYTEyMyIsImEiOiJjbXBpdGkyaTQxZTM4MnFwdHNzNTRqdHVlIn0.-l32LrfmsEfM54hQJDC1QA";
 const Map = MapboxGL({
-  accessToken: mapT,
+  accessToken: process.env.MAPBOX_TOKEN,
 });
 
 function MapComponent({center, zoom}) {
