@@ -3,7 +3,7 @@ import MapboxGL from "react-mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 
 const Map = MapboxGL({
-  accessToken: process.env.MAPBOX_TOKEN,
+  accessToken: "pk.eyJ1IjoibWljYWVsYTEyMyIsImEiOiJjbXBpdGkyaTQxZTM4MnFwdHNzNTRqdHVlIn0.-l32LrfmsEfM54hQJDC1QA"
 });
 
 function MapComponent({center, zoom}) {
